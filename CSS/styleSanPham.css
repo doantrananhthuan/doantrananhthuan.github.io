@@ -1,0 +1,660 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family: Roboto-R;
+	src: url("../Font/Roboto-Regular.ttf")
+}
+@font-face
+{
+	font-family: Roboto-B;
+	src: url("../Font/Roboto-Bold.ttf")
+}
+@font-face
+{
+	font-family: Poppins-B;
+	src: url("../Font/Poppins-Bold.ttf")
+}
+@font-face
+{
+	font-family: Poppins-R;
+	src: url("../Font/Poppins-Regular.ttf")
+}
+@font-face
+{
+	font-family: Roboto-L;
+	src: url("../Font/Roboto-Light.ttf");
+	
+}
+.container-fluid
+{
+	padding: 0;
+}
+.carousel-caption h1
+{
+	font-size: 80px;
+}
+.carousel-caption p
+{
+	font-size: 15px;
+}
+.carousel-caption
+{
+	top: 10%;
+	bottom: auto;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color:#151515;
+	font-family: Roboto-R;
+	font-size: 20px;
+	line-height: 40px;
+}
+.navbar-collapse ul li a:hover
+{
+	color: #d7211e !important; 
+}
+.navbar-collapse ul li
+{
+	margin: 0 5px;
+}
+.product-content:hover .btn-1
+{
+	opacity: 1;
+	visibility: visible;
+}
+
+.product-content .btn-1 
+{
+	left:24%;
+	opacity:0;
+	visibility: hidden; 
+	transition: 0.5s;
+}
+.icon-header-1 ul
+{
+	color:#151515;
+	font-size: 20px;
+	line-height: 70px;
+	list-style: none;
+	float: right;
+}
+.icon-header-2 ul
+{
+	color:#151515;
+	font-size: 20px;
+	line-height: 70px;
+	list-style: none;
+	float: right;
+}
+.footer-content ul
+{
+	list-style: none;
+}
+.d-float
+{
+	float: left;
+}
+.logo-footer p
+{
+	color: #fff;
+	font-size: 12px;
+	font-family: Roboto-L;
+	margin-top: 20px;
+}
+.contact-footer i
+{
+	margin-right: 10px;
+	margin-top: 4px;
+	color: #fff;
+}
+.contact-footer p
+{
+	font-size: 12px;
+	font-family:Roboto-L;
+	color: #fff;
+	margin-bottom: 0;	
+}
+.contact-footer p1
+{
+	font-size: 12px;
+	font-family:Roboto-L;
+	color: #fff;
+	margin-bottom: 0;
+	padding-left: 22px;
+}
+.contact-footer
+{
+	margin-top: 20px;
+	color: #fff;
+}
+.visit-footer h1
+{
+	font-size: 30px;
+	font-family: Roboto-B;
+	color: #fff;
+}
+.visit-footer
+{
+	padding-left: 30px;
+}
+.visit-footer h1
+{
+	margin-top: 24px;
+}
+.quicklink-footer ul
+{
+	list-style: none;
+	font-size: 12px;
+	font-family: Roboto-L;
+	padding-left: 8px;
+	color: #fff;
+	line-height: 10px;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+.quicklink-footer ul li
+{
+	margin-top: 20px;
+}
+.quicklink-footer h1
+{
+	font-size: 30px;
+	font-family: Roboto-B;
+	color: #fff;
+	margin-top: 24px;
+	margin-bottom: 25px;
+}
+.products h1
+{
+	font-size: 35px;
+	font-family: Roboto-B;
+	color: #151515;
+}
+.visit-footer
+{
+	margin-top: 24px;
+}
+#carouselExampleControls .carousel-indicators li
+	{
+    width: 200px;
+    height: 100%;
+    opacity: 0.8;
+ 		 }
+	#carouselExampleControls .carousel-indicators 
+	{
+    position: static;
+	}
+#carouselExampleControls .carousel-indicators li
+{
+	margin:  15px;
+	opacity: 1;
+	border-radius: 0;
+	box-sizing: border-box;
+	border: 4px solid transparent;
+}
+.item-active li.active
+{
+	border: 4px solid #d7211e !important;
+	box-sizing: border-box;
+}
+
+#carouselExampleControls .carousel-indicators li
+{
+	margin:  15px;
+	opacity: 1;
+	border-radius: 0;
+	box-sizing: border-box;
+	border: 4px solid transparent;
+}
+.slider p
+{
+	font-size: 20px;
+	color: #d7211e;
+	font-family: Roboto-B;
+}
+.about-img
+{
+	width: 100%;
+}
+.products-item
+{
+	margin-top: 40px;
+}
+.content-ayrfoods h1
+{
+	font-family: Roboto-B;
+	font-size: 26px;
+	color: #119548;	
+}
+.content-ayrfoods h2
+{
+	font-family: Poppins-B;
+	font-size: 30px;
+	color: #604848;
+	margin: 13px 0;
+}
+.content-ayrfoods h3
+{
+	font-family: Poppins-R;
+	font-size: 13px;
+	color: #119548;
+	margin: 25px 0 40px 0;
+}
+.content-ayrfoods p
+{
+	font-family: Poppins-R;
+	font-size: 13px;
+	color: #54595f;
+	margin: 13px 0;
+}
+.content-ayrfoods h4
+{
+	font-family: Poppins-R;
+	font-size: 13px;
+	color: #54595f;
+	margin: 40px 0 10px 0;
+}
+.content-ayrfoods h5
+{
+	font-family: Poppins-R;
+	font-size: 13px;
+	color: #54595f;
+}
+.content-ayrfoods span
+{
+	font-family: Poppins-B;
+	font-size: 15px;
+	color: #54595f;
+}
+.icon-ayrfoods i
+{
+	font-size: 20px;
+	color: #119548;
+}
+.input-group .btn:hover , .input-group .btn:focus
+{
+	background: #119548;
+}
+.add-to-cart button
+{
+	background-color: #119548;
+	color: #fff;
+	padding: 5px 10px;
+	border: none;
+	margin-top: 2px;
+	margin-left: -115px;
+	font-family: Popins-B;
+}
+.d-float
+{
+	float: left;
+}
+.icon-social ul
+{
+	list-style: none;
+	padding-left: 0;
+}
+.icon-social ul li
+{
+	display: inline-block;
+}
+.icon-social ul li a i 
+{
+	width: 45px;
+	height: 45px;
+	font-size: 25px;
+	line-height: 45px;
+	color: #fff;
+	text-align: center;
+	margin-right: 7px;
+}
+.icon-social ul li:nth-child(1) a i {
+	background-color: #3b5998;
+}
+
+.icon-social ul li:nth-child(2) a i {
+	background-color: #00acee;
+}
+.icon-social ul li:nth-child(3) a i {
+	background-color: #E31A1A;
+}
+.add-to-cart button:hover
+{
+	color: #fff;
+	background-color: #037031;
+}
+.line
+{
+	height: 1px;
+	background-color: #1c1c1c;
+	margin: 40px 0 40px 0;
+}
+.related h1
+{
+	margin-bottom: -67px;
+	margin-top: 20px;
+	color: #3F3F3F;
+}
+.btn-1
+{
+	background-color: #119548;
+	color: #fff;
+	padding: 5px 10px;
+	border: none;
+	margin-top: -5px;
+	font-family: Popins-B;
+}
+.reviews h1
+{
+	color: #3F3F3F;
+	margin-bottom: 20px;
+}
+.reviews-content h2
+{
+	font-size: 15px;
+	font-family: Roboto-R;
+	color: #404040;
+}
+.reviews-content p
+{
+	font-size: 17px;
+	font-family: Roboto-B;
+	color: #d7211e;
+	margin-bottom: 0rem;
+}
+.icon-reviews
+{
+	font-size: 17px;
+	color: #119548;
+}
+.reviews-item
+{
+	margin: 20px 0;
+}
+.icon-plane
+{
+	font-size: 42px;
+	color: #fff;
+	padding:0 40px; 
+}
+.subscribe-text
+{
+	padding-left: 0px;
+}
+.subscribe-text p
+{
+	font-size: 18px;
+	font-family: Poppins-R;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.subscribe-email input
+{
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	outline: none;
+	box-sizing: border-box;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.subscribe-button button
+{
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	outline: none;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: Poppins-R;
+	background-color: #d7211e;
+	color: #fff;
+	border: none;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.subscribe-button , .subscribe-email
+{
+	padding: 0;
+}
+.bg-subscribe
+{
+	background-color: #119548;
+}
+.subscribe-content
+{
+	margin: 50px auto;
+}
+.slider h1
+{
+	font-size: 17px;
+}
+@media screen and (max-width:2000px)
+{
+	.add-to-cart button
+	{
+		margin-left: -165px;
+	}
+}
+@media screen and (max-width:1400px)
+{
+	.add-to-cart button
+	{
+		margin-left: -125px;
+	}
+	.slider h1
+	{
+		height: 40px;
+	}
+}
+@media screen and (max-width:1100px)/*ipad pro*/
+{
+  	.visit-footer
+{
+	padding-left: 50px;
+	
+}
+	.add-to-cart button
+	{
+		margin-left: -75px;
+	}
+	.icon-plane
+	{
+	
+	  padding:4px 20px; 
+	}
+	.subscribe-text p
+	{
+		font-size: 17px;
+	}
+	.carousel-caption h1 
+	{
+    font-size: 64px;
+    }
+	
+} 
+@media screen and (max-width:992px)/*Tablet + Mobile Langscape*/
+{
+	.visit-footer
+{
+	padding-left: 10px;
+}
+	.visit-footer
+	{
+		margin-top: 0;
+	}
+	.logo-footer p
+	{
+		margin-bottom: 7px;
+	}
+	.quicklink-footer h1
+	{
+		margin-top: 0px;
+	}
+	.add-to-cart button
+	{
+		margin-left: -20px;
+	}
+	.reviews-img
+	{
+		width: 50%;
+	}
+	.reviews-content p 
+	{
+		font-size: 22px;
+	}
+	.reviews-content h2
+	{
+		font-size: 22px;
+	}
+	.icon-reviews
+	{
+		font-size: 22px;
+	}
+	
+	.carousel-indicators
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.icon-plane
+	{
+	    font-size: 30px;
+        padding: 4px 4px;
+    }
+	.subscribe-text p 
+	{
+    	font-size: 15px;
+   	 	margin-left: -62px;
+    	margin-top: 18px;
+   }
+	.subscribe-email input
+	{
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.carousel-caption h1 
+	{
+    	font-size: 48px;
+	}
+	.subscribe-button button
+	{
+		width: 30%;
+	}
+	.subscribe-button
+	{
+		text-align: center;
+	}
+}
+@media screen and (max-width:500px)/*Mobile*/
+{
+	.quicklink-footer
+	{
+		text-align: center;
+	}
+	.logo-footer
+	{
+		text-align: center;
+	}
+	.visit-footer
+	{
+		text-align: center;
+		margin-top: 0;
+	}
+	.contact-footer p i
+	{
+		text-align: center;
+	}
+	.content-ayrfoods h3
+	{
+		margin: 25px 0;
+	}
+	.add-to-cart button
+	{
+		margin-left: 0;
+		margin-top: 12px;
+	}
+	.content-ayrfoods h4
+	{
+		margin: 20px 0 10px 0;
+	}
+	.line
+	{
+		margin: 20px 0;
+	}
+	.reviews
+	{
+		text-align: center;
+	}
+	.reviews-img
+	{
+		width: 100%;
+	}
+	.carousel-caption h1
+	{
+		font-size: 20px;
+	}
+	.carousel-caption p
+	{
+		font-size: 11px;
+	}
+	.carousel-caption
+	{
+    top: 0%;
+    bottom: auto;
+    }
+	.reviews-content h2 
+	{
+    	font-size: 22px;
+   		 margin-top: 10px;
+	}
+	.product-content .btn-1 
+	{
+    	left: 28%;
+    	opacity: 0;
+   		visibility: hidden;
+    	transition: 0.5s;
+	}
+	.slider p 
+	{
+   		font-size: 20px;
+    	color: #D7211E;
+   		 margin-top: -22px;
+	}
+	.subscribe-text p
+	{
+		font-size: 10px;
+		padding-left: 41px;
+	}
+	.icon-plane
+	{
+	    font-size: 20px;
+		padding-left: 25px;
+    	padding-top: 16px;
+    }
+	.subscribe-button button
+	{
+		margin-top: 10px;
+		height: 30px;
+		font-size: 13px;
+		width: 30%;
+	}
+	.subscribe-email input
+	{
+		height: 30px;
+		width: 85%;
+	}
+	::placeholder
+	{
+		font-size: 13px;
+	}
+	.subscribe-button , .subscribe-email , .icon-plane , .subscribe-text
+	{
+		text-align: center;
+	}
+}	

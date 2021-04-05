@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family: Roboto-R;
+	src: url("../Font/Roboto-Regular.ttf")
+}
+@font-face
+{
+	font-family: Roboto-B;
+	src: url("../Font/Roboto-Bold.ttf")
+}
+@font-face
+{
+	font-family: Poppins-B;
+	src: url("../Font/Poppins-Bold.ttf")
+}
+@font-face
+{
+	font-family: Poppins-R;
+	src: url("../Font/Poppins-Regular.ttf")
+}
+@font-face
+{
+	font-family: Roboto-L;
+	src: url("../Font/Roboto-Light.ttf")
+}
+iframe
+{
+	height: 400px;
+}
+.carousel-caption h1
+{
+	font-size: 80px;
+}
+.carousel-caption p
+{
+	font-size: 15px;
+}
+.carousel-caption
+{
+	top: 10%;
+	bottom: auto;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color:#151515;
+	font-family: Roboto-R;
+	font-size: 20px;
+	line-height: 40px;
+}
+.navbar-collapse ul li a:hover
+{
+	color: #d7211e !important; 
+}
+.navbar-collapse ul li
+{
+	margin: 0 5px;
+}
+.icon-header-1 ul
+{
+	color:#151515;
+	font-size: 20px;
+	line-height: 70px;
+	list-style: none;
+	float: right;
+}
+.icon-header-2 ul
+{
+	color:#151515;
+	font-size: 20px;
+	line-height: 70px;
+	list-style: none;
+	float: right;
+}
+.footer-content ul
+{
+	list-style: none;
+}
+.d-float
+{
+	float: left;
+}
+.logo-footer p
+{
+	color: #fff;
+	font-size: 12px;
+	font-family: Roboto-L;
+	margin-top: 20px;
+}
+.contact-footer i
+{
+	margin-right: 10px;
+	margin-top: 4px;
+	color: #fff;
+}
+.contact-footer p
+{
+	font-size: 12px;
+	font-family:Roboto-L;
+	color: #fff;
+	margin-bottom: 0;	
+}
+.contact-footer p1
+{
+	font-size: 12px;
+	font-family:Roboto-L;
+	color: #fff;
+	margin-bottom: 0;
+	padding-left: 22px;
+}
+.contact-footer
+{
+	margin-top: 20px;
+	color: #fff;
+}
+.visit-footer h1
+{
+	font-size: 30px;
+	font-family: Roboto-B;
+	color: #fff;
+}
+.visit-footer
+{
+	padding-left: 30px;
+}
+.visit-footer h1
+{
+	margin-top: 24px;
+}
+.visit-footer
+{
+	margin-top: 24px;
+}
+.quicklink-footer ul
+{
+	list-style: none;
+	font-size: 12px;
+	font-family: Roboto-L;
+	padding-left: 8px;
+	color: #fff;
+	line-height: 10px;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+.quicklink-footer ul li
+{
+	margin-top: 20px;
+}
+.quicklink-footer h1
+{
+	font-size: 30px;
+	font-family: Roboto-B;
+	color: #fff;
+	margin-top: 24px;
+	margin-bottom: 25px;
+}
+.contacts-form h1
+{
+	font-size: 44px;
+	color: #4A4A4A;
+	font-family: Poppins-B;
+}
+.contacts-form p
+{
+	font-size: 16px;
+	color: #383D42;
+	font-family: Poppins-R;
+}
+.contacts-form input
+{
+	border: none;
+	border-bottom: 1px solid #8C8C8C;
+	font-size: 14px;
+	font-family: Roboto-L;
+}
+.contacts-form button
+{
+	background-color: #d7211e;
+	color: #fff;
+	border: none;
+	padding: 8px 15px;
+	font-size: 15px;
+	font-family: Poppins-B;
+}
+.carousel-indicators li
+{
+	background-color: #fff;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	opacity: 1;
+}
+.carousel-indicators .active
+{
+	background-color: #89C227;
+}
+@media screen and (max-width:1400px)
+{
+	
+}
+@media screen and (max-width:1100px)/*ipad pro*/
+{
+  	.visit-footer
+{
+	padding-left: 50px;
+	
+}
+	.contacts-img img
+	{
+		width: 100%;
+	}
+	.contacts-form
+	{
+		width: 50%;
+		margin-top: -8px;
+	}
+	.carousel-caption h1
+	{
+    font-size: 63px;
+    }
+}
+@media screen and (max-width:992px)/*Tablet + Mobile Langscape*/
+{
+	.visit-footer
+{
+	padding-left: 10px;
+}
+	.visit-footer
+	{
+		margin-top: 0;
+	}
+	.logo-footer p
+	{
+		margin-bottom: 7px;
+	}
+	.quicklink-footer h1
+	{
+		margin-top: 0px;
+	}
+	.contacts-img img
+	{
+		width: 100%;
+	}
+	.contacts-form
+	{
+		width: 50%;
+		margin-top: -8px;
+	}
+	.carousel-caption h1
+	{
+		font-size: 47px;
+	}
+}
+@media screen and (max-width:500px)/*Mobile*/
+{
+	.quicklink-footer
+	{
+		text-align: center;
+	}
+	.logo-footer
+	{
+		text-align: center;
+	}
+	.visit-footer
+	{
+		text-align: center;
+		margin-top: 0;
+	}
+	.contact-footer p i
+	{
+		text-align: center;
+	}
+	.contacts-img
+	{
+		margin-top: 20px;
+	}
+	.contacts-form
+	{
+		width: 100%;
+	}
+	.carousel-caption h1
+	{
+		font-size: 20px;
+	}
+	.carousel-caption p
+	{
+		font-size: 11px;
+	}
+	.carousel-caption
+	{
+    top: 0%;
+    bottom: auto;
+    }
+	
+}
