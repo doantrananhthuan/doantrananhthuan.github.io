@@ -26,6 +26,11 @@
 	font-family: Roboto-L;
 	src: url("../Font/Roboto-Light.ttf")
 }
+.navbar-toggler
+{
+	margin-left: 170px;
+   	 margin-top: 10px;
+}
 iframe
 {
 	height: 400px;
