@@ -27,6 +27,11 @@
 	src: url("../Font/Roboto-Light.ttf");
 	
 }
+.navbar-toggler
+{
+	margin-left: 170px;
+    margin-top: 10px;
+}
 .container-fluid
 {
 	padding: 0;
