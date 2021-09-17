@@ -558,23 +558,6 @@
 }
 @media screen and (max-width:500px)/*Mobile*/
 {
-	.quicklink-footer
-	{
-		text-align: center;
-	}
-	.logo-footer
-	{
-		text-align: center;
-	}
-	.visit-footer
-	{
-		text-align: center;
-		margin-top: 0;
-	}
-	.contact-footer p i
-	{
-		text-align: center;
-	}
 	.content-ayrfoods h3
 	{
 		margin: 25px 0;
@@ -662,4 +645,5 @@
 	{
 		text-align: center;
 	}
+       html , body { overflow-x: hidden;}
 }	
