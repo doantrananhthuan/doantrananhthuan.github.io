@@ -817,4 +817,5 @@
     top: 0%;
     bottom: auto;
     }
+    html , body {overflow-x: hidden;}
 }	
